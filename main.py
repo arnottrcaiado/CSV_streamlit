@@ -4,12 +4,12 @@
 # 
 # NOME ABA, DIA, TURNO, DATA, TOTAL, CICLO, INSTRUTOR, TURMA, QUANTIDADE
 # tabela, dia, turno, data, total, ciclo, instrutor, df[colunas[colunaInicial]][j], str(df[colunas[colunaInicial+3]][j])
+#
 
 import pandas as pd
 import csv 
 import streamlit as st
 import io
-
 
 def obtemDia ( df, colunas, linhas ):
   for i in range(linhas):
