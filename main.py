@@ -10,6 +10,7 @@ import csv
 import streamlit as st
 import io
 
+
 def obtemDia ( df, colunas, linhas ):
   for i in range(linhas):
     if df[colunas[0]][i].upper() == "DIA:" :
